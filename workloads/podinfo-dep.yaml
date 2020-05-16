@@ -59,7 +59,7 @@ spec:
         - name: PODINFO_UI_COLOR
           value: "#34577c"
           name : PODINFO_UI_MESSAGE
-          value : "Hello to Codefresh"
+          value : "Hello to Codefresh!v1"
         livenessProbe:
           httpGet:
             path: /healthz
